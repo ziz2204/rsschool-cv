@@ -144,6 +144,62 @@ hr {
 }
 
 
+/** Skills-Languages */
+.skills-list {
+    margin: 10px 20px;
+}
+
+.skills-item {
+    list-style: none;
+}
+
+.languages-list {
+    margin: 10px 20px;
+}
+
+.languages-item {
+    list-style: none;
+}
+
+.languages-item span {
+    font-weight: 700;
+}
+
+
+/** Contacts */
+.contacts-list {
+    margin: 10px 20px;
+    overflow: hidden;
+}
+
+.contacts-list dt {
+    margin: 0;
+    padding: 5px 0;
+    width: 150px;
+    float: left;
+    clear: both;
+    color: #2F4F4F;
+}
+
+.contacts-list dd {
+    margin: 0 0 0 150px;
+    padding: 5px 0;
+}
+
+.contacts-link {
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 1.20;
+}
+
+.contacts-link:hover,
+.contacts-link:active {
+    color: #A9A9A9;
+    transition-duration: 0.3s;
+}
+
 /** Footer */
 .main-footer {
     margin: 0;
