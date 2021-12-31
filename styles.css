@@ -23,6 +23,20 @@ body {
     visibility: hidden;
 }
 
+.section-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #556B2F;
+}
+
+hr {
+    padding: 0;
+    height: 10px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: inset 0 12px 12px -12px #A9A9A9;
+}
+
 
 /** Header */
 .main-header {
@@ -99,6 +113,34 @@ body {
 .short-description {
     margin: 20px;
     color: black;
+}
+
+
+/** Experience */
+.experience table {
+    margin: 10px 20px;
+}
+
+
+/** Eduation */
+.education table {
+    margin: 10px 20px;
+}
+
+.education th, td {
+    text-align: left;
+}
+
+.education dt {
+    margin: 10px 0;
+}
+
+.courses-item {
+    margin: 0 20px;
+}
+
+.education span {
+    font-weight: 700;
 }
 
 
