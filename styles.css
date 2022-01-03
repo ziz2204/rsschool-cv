@@ -1,0 +1,233 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    min-width: 1200px;
+    background-color: #DCDCDC;
+}
+
+.visually-hidden {
+    position: absolute;
+    visibility: hidden;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #556B2F;
+}
+
+hr {
+    padding: 0;
+    height: 10px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: inset 0 12px 12px -12px #A9A9A9;
+}
+
+
+/** Header */
+.main-header {
+    background-color: #424245;
+}
+
+.container {
+    margin: 20px;
+    padding: 0 250px;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 720px;
+    list-style: none;
+}
+
+.nav-link {
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(236, 245, 255, 0.966);
+    letter-spacing: 2px;
+    line-height: 2.27;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #98FB98;
+    transition-duration: 0.5s;
+}
+
+
+/** About */
+.avatar-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar-wrapper {
+    display: flex;
+    gap: 80px;
+}
+
+.about .fullname {
+    font-weight: 500;
+    font-size: 28px;
+    color: #556B2F;
+}
+
+.about .position {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #556B2F;
+}
+
+.fullname-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.short-description {
+    margin: 20px;
+    color: black;
+}
+
+
+/** Experience */
+.experience table {
+    margin: 10px 20px;
+}
+
+
+/** Eduation */
+.education table {
+    margin: 10px 20px;
+}
+
+.education th, td {
+    text-align: left;
+}
+
+.education dt {
+    margin: 10px 0;
+}
+
+.courses-item {
+    margin: 0 20px;
+}
+
+.education span {
+    font-weight: 700;
+}
+
+
+/** Skills-Languages */
+.skills-list {
+    margin: 10px 20px;
+}
+
+.skills-item {
+    list-style: none;
+}
+
+.languages-list {
+    margin: 10px 20px;
+}
+
+.languages-item {
+    list-style: none;
+}
+
+.languages-item span {
+    font-weight: 700;
+}
+
+
+/** Contacts */
+.contacts-list {
+    margin: 10px 20px;
+    overflow: hidden;
+}
+
+.contacts-list dt {
+    margin: 0;
+    padding: 5px 0;
+    width: 150px;
+    float: left;
+    clear: both;
+    color: #2F4F4F;
+}
+
+.contacts-list dd {
+    margin: 0 0 0 150px;
+    padding: 5px 0;
+}
+
+.contacts-link {
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 1.20;
+}
+
+.contacts-link:hover,
+.contacts-link:active {
+    color: #A9A9A9;
+    transition-duration: 0.3s;
+}
+
+/** Footer */
+.main-footer {
+    margin: 0;
+    background-color: #C0C0C0;
+    color: black;
+}
+
+.main-footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.footer-logo {
+    width: 120px;
+}
+
+.footer-list {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list i {
+    color: black;
+    font-size: 40px;
+}
